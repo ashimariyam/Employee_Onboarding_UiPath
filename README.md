@@ -29,12 +29,13 @@ By leveraging **UiPath**, this project enhances efficiency, minimizes errors, an
 ---
 
 ## 📂 Project Structure  
+
+```
 Employee-Onboarding-RPA/
-│── XAML_Files/                  # UiPath workflows (XAML files)
-│   ├── InterviewCall.xaml        # Automates interview call scheduling
-│   ├── OfferLetter.xaml          # Generates offer letters dynamically
-│   ├── IDCardGeneration.xaml     # Automates employee ID card creation
-│   ├── Main.xaml                 # Orchestrator for the onboarding process
+│── XAML_Files/                   # UiPath workflows (XAML files)            
+│   ├── emp_onboard.xaml         # Generates offer letters dynamically, Automates employee ID card creation
+|   ├── Main.xaml                # Main file, Orchestrator for the onboarding process
+│                   
 │
 │── Templates/                    # Predefined templates for documents
 │   ├── Offer_Letter_Template.docx
@@ -44,11 +45,14 @@ Employee-Onboarding-RPA/
 │
 │── README.md                      # Project documentation
 
-🔧 Dependencies & Setup
+```
+---
+
+## 🔧 Dependencies & Setup
 
 To run this project, install the following dependencies in UiPath Studio:
 
-✅ UiPath Packages (Install via Manage Packages)
+ **UiPath Packages (Install via Manage Packages)**
 
 UiPath.Excel.Activities → For handling Excel data (e.g., reading employee details).
 
@@ -64,14 +68,15 @@ UiPath.Forms.Activities → For UI-based user input (if applicable).
 
 UiPath.UIAutomation.Activities → For interacting with web-based HR portals.
 
-📌 External Dependencies
+## 📌 External Dependencies
 
 Microsoft Word (or equivalent) → For offer letter template processing.
 
 SMTP or Outlook Email Account → For email automation.
 
 Google Drive/OneDrive API (Optional) → If documents are uploaded to cloud storage.
-🛠 Installation Steps
+
+## 🛠 Installation Steps
 
 Open UiPath Studio.
 
@@ -81,29 +86,39 @@ Search for the required package (e.g., UiPath.Excel.Activities).
 
 Click Install → Save → Restart UiPath Studio.
 
-🎬 How to Use
+---
+
+## 🎬 How to Use
 
 Running the UiPath XAML Files
 
 1.Clone the Repository
-git clone https://github.com/yourusername/Employee-Onboarding-RPA.git
-cd Employee-Onboarding-RPA
-
-2.Open UiPath Studio and load the Main.xaml file.
+```
+git clone https://github.com/yourusername/Employee_Onboarding_UiPath.git
+cd Employee_Onboarding_UiPath
+```
+2.Open UiPath Studio and load the emp_onboard.xaml file.
 
 3.Ensure dependencies are installed (see above).
 
-4.Run the automation by executing Main.xaml.
+4.Run the automation by executing  emp_onboard.xaml.
 
-📽️ Project Demo 
-- [📽️ Interview Call Automation](https://github.com/your-username/your-repo/releases/download/v1.0.0-employee-onboarding/interview-call.mp4)
-- [📽️ Offer Letter Generation](https://github.com/your-username/your-repo/releases/download/v1.0.0-employee-onboarding/offer-letter.mp4)
-- [📽️ ID Card Creation](https://github.com/your-username/your-repo/releases/download/v1.0.0-employee-onboarding/id-card.mp4)
-🤝 Contribution
+---
+
+## 📽️ Project Demo 
+- [📽️Project Demo ](https://github.com/ashimariyam/Employee_Onboarding_UiPath/releases/tag/v1.0.0-employee-onboarding/Main.Project.demo.mp4)
+- [📽️ Workflows Demo ](https://github.com/ashimariyam/Employee_Onboarding_UiPath/releases/tag/v1.0.0-employee-onboarding/Project.in.uipath.mp4)
+- [📽️ Output Demo ](https://github.com/ashimariyam/Employee_Onboarding_UiPath/releases/tag/v1.0.0-employee-onboarding/Output.mp4)
+
+---
+  
+## 🤝 Contribution
 
 Feel free to contribute by raising issues or submitting pull requests!
 
-📜 License
+---
+
+## 📜 License
 
 This project is licensed under MIT License. You are free to use and modify it as needed.
 
