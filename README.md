@@ -96,7 +96,9 @@ cd Employee-Onboarding-RPA
 4.Run the automation by executing Main.xaml.
 
 📽️ Project Demo 
-
+- [📽️ Interview Call Automation](https://github.com/your-username/your-repo/releases/download/v1.0.0-employee-onboarding/interview-call.mp4)
+- [📽️ Offer Letter Generation](https://github.com/your-username/your-repo/releases/download/v1.0.0-employee-onboarding/offer-letter.mp4)
+- [📽️ ID Card Creation](https://github.com/your-username/your-repo/releases/download/v1.0.0-employee-onboarding/id-card.mp4)
 🤝 Contribution
 
 Feel free to contribute by raising issues or submitting pull requests!
